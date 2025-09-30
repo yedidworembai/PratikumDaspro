@@ -29,6 +29,23 @@ public class ifElseCetakKRS28
             System.out.println("x:Semester tidak valid");
         }
 
+        // =======================================================================
+        // TAMBAHAN: Transformasi logika ke Ternary Operator
+        // =======================================================================
+        System.out.println("\n--- Hasil dengan Ternary Operator (Versi Singkat) ---");
+        
+        String hasilKRS = 
+            (semester == 1) ? "x:KRS semester 1 ditampilkan" :
+            (semester == 2) ? "x:KRS semester 2 ditampilkan" :
+            (semester == 3) ? "x:KRS semester 3 ditampilkan" :
+            (semester == 4) ? "x:KRS semester 4 ditampilkan" :
+            (semester == 5) ? "x:KRS semester 5 ditampilkan" :
+            (semester == 6) ? "x:KRS semester 6 ditampilkan" :
+            (semester == 7) ? "x:KRS semester 7 ditampilkan" :
+            "x:Semester tidak valid"; // Nilai default (setara dengan ELSE)
+            
+        System.out.println(hasilKRS);
+
         sc.close();
     }
 }
