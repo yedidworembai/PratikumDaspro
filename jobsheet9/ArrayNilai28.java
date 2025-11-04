@@ -1,18 +1,31 @@
-    package jobsheet9;
- import java.util.Scanner;
- 
- 
+package jobsheet9;
+
+import java.util.Scanner;
+
 public class ArrayNilai28 {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] nilaiAkhir = new int[10];
-        for (int i = 0; i < 10; i++) {
-            System.out.print("masukkan nilai akhir ke-"+i+": ");
-            nilaiAkhir[i] = sc.nextInt();
-  System.out.println("nilai akhir ke-"+i+"adalah"+nilaiAkhir[i]);
+
+        // Loop untuk 10 mahasiswa
+        for (int i = 0; i < nilaiAkhir.length; i++) {
+            
+            System.out.print("Masukkan nilai akhir mahasiswa ke-" + (i + 1) + ": ");
+           nilaiAkhir[i] = sc.nextInt(); 
+
+            // Pengecekan kondisi kelulusan
+            if (nilaiAkhir[i] > 70) {
+                System.out.println("Mahasiswa ke-" + (i + 1) + " LULUS");
+            } else {
+                System.out.println("Mahasiswa ke-" + (i + 1) + " TIDAK LULUS");
             }
-        sc.close();
+
+            // Menampilkan nilai yang sudah dimasukkan
+            System.out.println("Nilai akhir mahasiswa ke-" + (i + 1) + " adalah: " + nilaiAkhir[i]);
+            System.out.println("------------------------------"); // Pemisah antar mahasiswa
         }
-        
-        
+
+        sc.close();
     }
+}
