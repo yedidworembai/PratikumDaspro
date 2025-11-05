@@ -20,7 +20,7 @@ public class SearchNilai28 {
         }
         
         // 3. Input nilai yang ingin dicari (key)
-        System.out.print("Masukkan nilai yang ingin dicari: ");
+        System.out.print("Masukkan nilai yang mau dicari: ");
         int key = sc.nextInt();
 
         // Variabel hasil. Diinisialisasi dengan -1 (nilai yang menunjukkan "tidak ditemukan")
@@ -43,6 +43,7 @@ public class SearchNilai28 {
             System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + posisiMahasiswa);
         } else {
             System.out.println("Nilai " + key + " tidak ditemukan dalam array.");
+            System.out.println("Hasil = " + hasil);
         }
         
         sc.close();
