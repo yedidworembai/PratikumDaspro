@@ -43,7 +43,7 @@ public class SearchNilai28 {
             System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + posisiMahasiswa);
         } else {
             System.out.println("Nilai " + key + " tidak ditemukan dalam array.");
-            System.out.println("Hasil = " + hasil);
+        
         }
         
         sc.close();
