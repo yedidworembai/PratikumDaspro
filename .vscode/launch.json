@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BioskopWithScanner28",
+            "request": "launch",
+            "mainClass": "jobsheet10.BioskopWithScanner28",
+            "projectName": "PratikumDaspro-2_8106fb1d"
+        },
+        {
+            "type": "java",
+            "name": "Bioskop",
+            "request": "launch",
+            "mainClass": "jobsheet10.Bioskop",
+            "projectName": "PratikumDaspro-2_8106fb1d"
+        },
+        {
+            "type": "java",
+            "name": "Bioskop28",
+            "request": "launch",
+            "mainClass": "jobsheet10.Bioskop28",
+            "projectName": "PratikumDaspro-2_8106fb1d"
+        },
+        {
+            "type": "java",
+            "name": "JumlahKuadrat28",
+            "request": "launch",
+            "mainClass": "jobsheet8.JumlahKuadrat28",
+            "projectName": "PratikumDaspro-2_8106fb1d"
+        },
+        {
+            "type": "java",
+            "name": "PenilaianKelompopk28",
+            "request": "launch",
+            "mainClass": "jobsheet8.PenilaianKelompopk28",
+            "projectName": "PratikumDaspro-2_8106fb1d"
+        },
+        {
+            "type": "java",
+            "name": "Triangle28",
+            "request": "launch",
+            "mainClass": "jobsheet8.Triangle28",
+            "projectName": "PratikumDaspro-2_8106fb1d"
+        },
+        {
+            "type": "java",
+            "name": "Square28",
+            "request": "launch",
+            "mainClass": "jobsheet8.Square28",
+            "projectName": "PratikumDaspro-2_8106fb1d"
+        },
+        {
+            "type": "java",
+            "name": "Star28",
+            "request": "launch",
+            "mainClass": "jobsheet8.Star28",
+            "projectName": "PratikumDaspro-2_8106fb1d"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
